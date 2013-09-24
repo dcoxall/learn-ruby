@@ -41,7 +41,7 @@ puts 'Hello #{name}!'      # => Hello #{name}!
 # using double quotes
 puts "Hello " + name + "!" # => Hello Example!
 puts "Hello #{name}!"      # => Hello Example!
-``
+```
 
 As demonstrated above, double quotes allow us to build a line of text more easily without having to continue adding them together.
 
