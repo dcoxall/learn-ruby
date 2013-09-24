@@ -77,4 +77,6 @@ total_price(200, 0) # => 200
 
 Notice how we can now remove the line where we set the value of the `tax` variable. This has moved into the arguments list. By using the `=` symbol in the arguments we are setting a *default* value which we can override as demonstrated in the last example.
 
-That's the end of the first lesson. The next lesson we will cover a more complicated topic of Classes and Objects.
+That's the end of the first lesson. The next lesson we will cover a more complicated topic of [Classes and Objects][classes_and_objects].
+
+[classes_and_objects]: 02-classes-and-objects.md "Learn Ruby: 01-02 Classes & Objects"
