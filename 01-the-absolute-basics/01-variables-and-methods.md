@@ -14,7 +14,7 @@ price = 100
 total = price + (price * tax) # => 120
 ```
 
-Using variables means we can then just a single value and that will propagate everywhere that we use the variable.
+Using variables means we can then just use the variable name and that will propagate the stored value everywhere that we use the variable.
 
 ```ruby
 tax   = 0.4 # changed from 0.2 to 0.4
@@ -61,7 +61,7 @@ total_price(150) # => 180
 total_price(200) # => 240
 ```
 
-Awesome! So now we can generate a price what if we wanted to optionally override the tax for specific cases? We can easily do this by adding another argument (parameter) to the method. That would look like the following:
+Awesome! So now we can generate a price. What if we wanted to optionally override the tax for specific cases? We can easily do this by adding another argument (parameter) to the method. That would look like the following:
 
 ```ruby
 # define a total price method
@@ -75,6 +75,6 @@ total_price(150)    # => 180
 total_price(200, 0) # => 200
 ```
 
-Notice how we can now remove the line where we set the value of the `tax` variable. This has moved into the arguments list. By using the `=` symbol in the arguments we are setting a *default* value which we can override as demonstrated in the examples.
+Notice how we can now remove the line where we set the value of the `tax` variable. This has moved into the arguments list. By using the `=` symbol in the arguments we are setting a *default* value which we can override as demonstrated in the last example.
 
 That's the end of the first lesson. The next lesson we will cover a more complicated topic of Classes and Objects.
